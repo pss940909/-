@@ -1,0 +1,745 @@
+/* ----- RESET CSS ----- */
+@import url(./reset.css);
+
+/* ----- css start ----- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e1e1e;
+  max-width: 1920px;
+  color: #fff;
+  font-family: "Noto Sans TC";
+}
+
+/* ----- header CSS ----- */
+header {
+  border-bottom: 1px solid #fff;
+  max-width: 1296px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 244.99px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 20px;
+}
+
+.menu_icon {
+  display: none;
+}
+
+/* ----- banner CSS ----- */
+
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.banner {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+
+.banner h2 {
+  font-weight: 900;
+  font-size: 120px;
+  line-height: 144px;
+}
+
+.banner button {
+  margin-top: 40px;
+  padding: 20px 40px;
+  border-radius: 16px;
+  border: 1px solid #fff;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 900;
+}
+
+/* ----- deco CSS ----- */
+
+.deco {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 160px;
+}
+
+.deco img {
+  display: block;
+}
+
+/* ----- service CSS ----- */
+
+.service {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.service h3 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+  width: 414px;
+}
+
+.service p {
+  margin-left: 24px;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+/* ----- service_list CSS ----- */
+.service_list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+
+.service_item {
+  width: 32%;
+  border: 1px solid #525252;
+  border-radius: 16px;
+  padding: 80px 40px;
+}
+
+.service_item img {
+  margin-bottom: 20px;
+}
+
+.service_item h3 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 20px;
+}
+
+.service_item p {
+  color: #f2f2f2;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* ----- partners CSS ----- */
+
+.partners h3 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 80px;
+}
+
+.logo_list1 {
+  padding-right: 118px;
+  padding-left: 118px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  overflow-x: auto;
+}
+
+.logo_list1 img {
+  width: 160px;
+}
+
+.logo_list2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+  overflow-x: auto;
+}
+
+.logo_list2 img {
+  width: 160px;
+}
+
+/* ----- reviews CSS ----- */
+
+.reviews {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 160px;
+}
+
+.review_card {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  width: 416px;
+  padding: 40px;
+}
+
+.stars {
+  width: 96px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stars img {
+  width: 13px;
+}
+
+.review {
+  height: 215px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+}
+
+.reviewer img {
+  width: 48px;
+  margin-right: 16px;
+}
+
+.person_info h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.person_info p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+/* ----- products CSS ----- */
+
+.products {
+  max-width: 1920px;
+  background-color: #fff;
+  border-radius: 160px;
+  color: #020202;
+  padding-top: 160px;
+  padding-bottom: 162px;
+  margin-bottom: 160px;
+}
+
+.products h2 {
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 96px;
+  margin-bottom: 80px;
+}
+
+/* ----- search CSS ----- */
+
+.search {
+  background-color: #f2f2f2;
+  border-radius: 16px;
+  height: 64px;
+  padding-right: 40px;
+  padding-left: 40px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.search img {
+  width: 17.5px;
+  margin-right: 15.5px;
+}
+
+.search input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.search input::placeholder {
+  color: #919191;
+}
+
+/* ----- filter_area CSS ----- */
+
+.filter_area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.filter_icon {
+  width: 132px;
+  height: 64px;
+  border-radius: 16px;
+  border: 1px solid #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filter_icon p {
+  margin-right: 14.7px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.filter_icon img {
+  cursor: pointer;
+}
+
+.filter_items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter_items li {
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 8px;
+  color: #919191;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.filter_items li:hover {
+  color: #020202;
+  font-weight: 700;
+  border-radius: 16px;
+  background-color: #f2f2f2;
+}
+
+.filter_items_rwd {
+  display: none;
+}
+
+.filter_select {
+  width: 164px;
+  height: 64px;
+  text-align: center;
+  border-radius: 16px;
+  border: 1px solid #f2f2f2;
+  outline: 1px solid #f2f2f2;
+}
+
+/* ----- cards_container CSS ----- */
+
+.cards_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 32%;
+  border: 1px solid #f2f2f2;
+  margin-bottom: 24px;
+  border-radius: 16px;
+}
+
+.card_img img {
+  width: 100%;
+  height: 312px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.content {
+  padding: 20px 32px;
+  border-bottom: 1px solid #f2f2f2;
+  height: 118px;
+}
+
+.content h2 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.content p {
+  color: #525252;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.card_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 32px;
+}
+
+.card_item h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card_item img {
+  width: 18px;
+}
+
+/* ----- pagination CSS ----- */
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+.pagination li {
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  margin-left: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.pagination li:hover {
+  background-color: #020202;
+  color: #fff;
+  border-radius: 16px;
+}
+
+.pagination li:last-child:hover {
+  border: 3px solid #020202;
+  background-color: #fff;
+}
+
+/* ----- call_to_action CSS ----- */
+
+.call_to_action {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.call_to_action h2 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  margin-bottom: 40px;
+}
+
+.call_to_action button {
+  border: 1px solid #fff;
+  background-color: transparent;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 900;
+  border-radius: 16px;
+  padding: 20px 40px;
+  color: #fff;
+}
+
+.call_to_action button img {
+  vertical-align: middle;
+}
+
+/* ----- footer_menu CSS ----- */
+
+.footer_menu {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 360px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.footer_menu ul li {
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 96px;
+}
+
+.footer_menu img {
+  width: 245px;
+}
+
+/* ----- footer_bottom CSS ----- */
+
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88px;
+}
+
+.footer_bottom_right {
+  display: flex;
+}
+
+.footer_bottom span {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-right: 100px;
+}
+
+.social_media {
+  display: flex;
+}
+
+.social_media li {
+  margin-right: 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer_bottom a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer_bottom a img {
+  vertical-align: middle;
+  width: 10.67px;
+  margin-left: 14.67px;
+}
+
+/* ===== RWD CSS ===== */
+
+@media screen and (max-width: 375px) {
+  /* ----- header CSS ----- */
+  header {
+    margin: 0 auto;
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+
+  .logo img {
+    width: 147px;
+  }
+
+  .menu li {
+    display: none;
+  }
+
+  .menu_icon {
+    display: block;
+    padding-top: 34px;
+    padding-bottom: 34px;
+  }
+
+  /* ----- banner CSS ----- */
+
+  .container {
+    max-width: 351px;
+    margin: 0 auto;
+  }
+
+  .banner {
+    margin-bottom: 180px;
+  }
+
+  .banner h2 {
+    max-width: 252px;
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  /* ----- deco CSS ----- */
+
+  .deco {
+    margin-bottom: 120px;
+  }
+
+  .deco img {
+    width: 117px;
+  }
+
+  /* ----- service CSS ----- */
+
+  .service {
+    flex-direction: column;
+    margin-bottom: 48px;
+  }
+
+  .service h3 {
+    font-size: 20px;
+    line-height: 24px;
+    width: auto;
+    margin-bottom: 24px;
+  }
+
+  .service p {
+    margin-left: 0;
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  /* ----- service_list CSS ----- */
+
+  .service_list {
+    flex-direction: column;
+    margin-bottom: 120px;
+  }
+
+  .service_item {
+    width: 100%;
+    padding: 40px 20px;
+    margin-bottom: 12px;
+  }
+
+  /* ----- products CSS ----- */
+
+  .products {
+    border-radius: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .products h2 {
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 32px;
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  /* ----- filter_area CSS ----- */
+
+  .filter_area {
+    position: relative;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .filter_items {
+    display: none;
+  }
+
+  .filter_items_rwd {
+    width: 351px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;
+    margin-bottom: 48px;
+  }
+
+  .filter_items_rwd li {
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 8px;
+    color: #919191;
+    padding: 8px 16px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+
+  .filter_items_rwd li:hover {
+    color: #020202;
+    font-weight: 700;
+    border-radius: 16px;
+    background-color: #f2f2f2;
+  }
+
+  .cards_container {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .content h2 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    text-align-last: left;
+    padding: 0;
+    margin-bottom: 12px;
+  }
+
+  .content p {
+    color: #525252;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .pagination {
+    justify-content: center;
+    margin-top: 8px;
+  }
+
+  .call_to_action h2 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 38px;
+    width: 224px;
+    margin: 0 auto 32px;
+  }
+
+  .footer_menu {
+    flex-direction: column-reverse;
+    margin-bottom: 32px;
+  }
+
+  .footer_menu img {
+    margin-bottom: 40px;
+  }
+
+  .footer_menu ul li {
+    font-size: 48px;
+    line-height: 58px;
+    margin-bottom: 8px;
+  }
+
+  .footer_bottom {
+    height: auto;
+  }
+
+  .footer_bottom_right {
+    flex-direction: column;
+  }
+
+  .footer_bottom span {
+    margin-right: 0;
+    margin-bottom: 36px;
+  }
+
+  .social_media {
+    margin-bottom: 32px;
+  }
+
+  .footer_bottom {
+    position: relative;
+  }
+
+  .footer_bottom a {
+    position: absolute;
+    top: 0;
+    right: 8px;
+  }
+}
